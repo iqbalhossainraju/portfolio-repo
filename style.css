@@ -1,0 +1,116 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+.link-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(230, 126, 34, 1);
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-image: linear-gradient(rgba(255, 165, 0, 1), rgba(255, 99, 71, 1));
+  margin-bottom: 15px;
+}
+/* ========== Top Section ========== */
+#top-section {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+#top-section .flexible-box {
+  width: 50%;
+  margin-left: 20%;
+}
+#top-section .heading-colour {
+  color: rgba(0, 184, 148, 1);
+}
+#top-section .top-section-heading h1 {
+  margin-left: 10px;
+}
+#top-section .top-section-heading {
+  border-left: 6px solid;
+  border-image: linear-gradient(rgba(225, 112, 85, 1), rgba(255, 118, 117, 1));
+  border-image-slice: 1;
+}
+#top-section .flexible-box img {
+  height: 85%;
+  width: 50%;
+}
+
+/* =========== My Mission in 2022 ========== */
+#my-goal-area {
+  margin-left: 20%;
+  margin-bottom: 150px;
+}
+#my-goal-area .container {
+  display: flex;
+}
+#my-goal-area img {
+  width: 40%;
+}
+#my-goal-area .container p {
+}
+.my-goal-area {
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(44, 62, 80, 1);
+  height: 20%;
+  width: 25%;
+  margin-left: 18px;
+}
+.my-mission {
+  background-color: rgba(199, 236, 238, 1);
+}
+.my-vission {
+  background-color: rgba(255, 159, 243, 1);
+}
+.my-goals {
+  background-color: rgba(250, 211, 144, 1);
+}
+#my-goal-area .container p {
+  margin-left: 20px;
+}
+
+/* ========== Developer section ========== */
+#developer-section {
+  display: flex;
+  margin-left: 20%;
+  margin-bottom: 150px;
+}
+#developer-section .flexible-box img {
+  width: 50%;
+}
+#developer-section .flexible-box {
+  width: 50%;
+}
+
+/* ==========Global Community ========== */
+#global-community {
+  display: flex;
+  margin-left: 20%;
+  margin-bottom: 150px;
+}
+#global-community .flexible-box img {
+  width: 50%;
+}
+#global-community .flexible-box {
+  width: 50%;
+}
+
+/* ========== footer ========== */
+footer {
+  background: #000;
+  text-align: center;
+}
+.footer {
+  color: #fff;
+}
+.footer span {
+  color: red;
+}
