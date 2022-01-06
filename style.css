@@ -45,11 +45,17 @@ h2 {
 
 /* =========== My Mission in 2022 ========== */
 #my-goal-area {
-  margin-left: 20%;
   margin-bottom: 150px;
+}
+#my-goal-area h1 {
+  text-align: center;
+}
+#my-goal-area span {
+  color: rgba(0, 184, 148, 1);
 }
 #my-goal-area .container {
   display: flex;
+  margin-left: 15%;
 }
 #my-goal-area img {
   width: 40%;
