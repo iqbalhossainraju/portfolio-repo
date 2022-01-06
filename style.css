@@ -26,7 +26,7 @@ h2 {
 
 #top-section .flexible-box {
   width: 50%;
-  margin-left: 20%;
+  margin-left: 15%;
 }
 #top-section .heading-colour {
   color: rgba(0, 184, 148, 1);
@@ -40,8 +40,7 @@ h2 {
   border-image-slice: 1;
 }
 #top-section .flexible-box img {
-  height: 85%;
-  width: 50%;
+  width: 80%;
 }
 
 /* =========== My Mission in 2022 ========== */
@@ -57,24 +56,28 @@ h2 {
 }
 #my-goal-area .container p {
 }
-.my-goal-area {
+#my-goal-area .my-goal-area {
   border-radius: 15px;
   box-shadow: 5px 5px 10px rgba(44, 62, 80, 1);
-  height: 20%;
+  height: 400px;
   width: 25%;
   margin-left: 18px;
 }
-.my-mission {
+#my-goal-area .my-mission {
   background-color: rgba(199, 236, 238, 1);
 }
-.my-vission {
+#my-goal-area .my-vission {
   background-color: rgba(255, 159, 243, 1);
 }
-.my-goals {
+#my-goal-area .my-goals {
   background-color: rgba(250, 211, 144, 1);
 }
 #my-goal-area .container p {
   margin-left: 20px;
+}
+#my-goal-area .container h5 {
+  margin-left: 20px;
+  font-size: 20px;
 }
 
 /* ========== Developer section ========== */
@@ -102,7 +105,18 @@ h2 {
 #global-community .flexible-box {
   width: 50%;
 }
-
+/* ========= Download CV ========= */
+#down-cv {
+  display: flex;
+  margin-left: 20%;
+  margin-bottom: 100px;
+}
+#down-cv .flexible-box img {
+  width: 50%;
+}
+#down-cv .flexible-box {
+  width: 50%;
+}
 /* ========== footer ========== */
 footer {
   background: #000;
